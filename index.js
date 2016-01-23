@@ -1,11 +1,11 @@
 'use-strict';
 
-var Spec = require('mocha').reporters.Spec;
+var Mochawesome = require('mochawesome');
 var JUnit = require('mocha-junit-reporter');
 
 
 function MochaCircleCIReporter(runner, options) {
-  new Spec(runner, options);
+  new Mochawesome(runner, options);
   new JUnit(runner, options);
 }
 
