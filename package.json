@@ -1,6 +1,6 @@
 {
   "name": "mocha-circleci-reporter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A mocha reporter that supports Cicle CI, via a combined jUnit and Mochawesome reporter output.",
   "main": "index.js",
   "scripts": {
@@ -31,7 +31,7 @@
     "test-console": "^1.0.0"
   },
   "dependencies": {
-    "mochawesome": "^1.2.2",
+    "mochawesome": "1.4.0",
     "mocha-junit-reporter": "^1.6.1"
   }
 }
